@@ -330,5 +330,13 @@ span{
 .contact form .btn {
     margin-top:  2rem;
     cursor: pointer;
-    
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background: var(--second-bg-color);
 }
