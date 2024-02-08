@@ -82,7 +82,7 @@ section{
 }
 
 .home-img img {
-    width: 35vw;
+    width: 20vw;
 }
 
 .home-content h3 {
@@ -134,7 +134,7 @@ span        {
     padding: 1rem 2.8rem;
     background: var(--main-color);
     border-radius: 4rem;
-    box-shadow: 0 0 1 var(--main-color);
+    box-shadow: 0 0 1rem var(--main-color);
     font-size: 1.6rem;
     color: var(--second-bg-color);
     letter-spacing: .1rem;  
@@ -143,6 +143,8 @@ span        {
 }
 
 .btn:hover {
+    background: var(--second-bg-color);
+    color: var(--main-color);
     box-shadow: none;
 }
 
