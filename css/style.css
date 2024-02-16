@@ -234,22 +234,22 @@ span        {
     margin: 1rem 0 3rem;
 }
 
-.portifolio {
+.portfolio {
     background: var(--second-bg-color);
 }
 
-.portifolio h2 {
+.portfolio h2 {
     margin-bottom: 4rem;
 }
 
-.portifolio-container {
+.portfolio-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     gap: 2.5rem;
 }
 
-.portifolio-container .portifolio-box {
+.portfolio-container .portfolio-box {
     position: relative;
     border-radius: 2rem;
     box-shadow: 0 0 1rem var(--bg-color);
@@ -257,16 +257,16 @@ span        {
     display: flex;
 }
 
-.portifolio-box img {
+.portfolio-box img {
     width: 100%;
     transition: .5s ease;
 }
 
-.portifolio-box:hover img {
+.portfolio-box:hover img {
     transform: scale(1.1);
 }
 
-.portifolio-box .portifolio-layer {
+.portfolio-box .portfolio-layer {
     position: absolute;
      top: 0;
      left: 0;
@@ -283,20 +283,20 @@ span        {
      transition: .5s ease;
 }
 
-.portifolio-box:hover .portifolio-layer {
+.portfolio-box:hover .portfolio-layer {
     transform: translateY(0);
 }
 
-.portifolio-layer h4 {
+.portfolio-layer h4 {
     font-size: 3rem;
 }
 
-.portifolio-layer p {
+.portfolio-layer p {
     font-size: 1.6rem;
     margin: .3rem 0 1rem;
 }
 
-.portifolio-layer a {
+.portfolio-layer a {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -306,7 +306,7 @@ span        {
     border-radius: 50%;
 }
 
-.portifolio-layer a i {
+.portfolio-layer a i {
     font-size: 2rem;
     color: var(--second-bg-color);
 }
@@ -403,7 +403,7 @@ span        {
             padding-bottom: 7rem;
         }
 
-        .portifolio {
+        .portfolio {
             padding-bottom: 7rem;
         }
 
@@ -472,18 +472,18 @@ span        {
         margin-bottom: 3rem;
     }
 
-    .portifolio h2 {
+    .portfolio h2 {
         margin-bottom: 3rem;
     }
 
-    .portifolio-container {
+    .portfolio-container {
         grid-template-columns: repeat(2, 1fr);
     }
     
 }
 
 @media (max-width: 617px){
-    .portifolio-container {
+    .portfolio-container {
         grid-template-columns: 1fr ;
     }
 }
